@@ -22,7 +22,8 @@ weaponClass.addEventListener('click', getClassObj);
 weaponName.addEventListener('click', getNameObj);
 
 //Fetch on page load
-fetch(`http://localhost:8000/api/`)
+// fetch(`http://localhost:8000/api/`)
+fetch(`https://elden-ring-weapons-api.herokuapp.com//api/`)
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
