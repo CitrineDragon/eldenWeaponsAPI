@@ -48,6 +48,9 @@ main {
   margin-bottom: 10rem;
   justify-content: center;
   align-items: center;
+  box-shadow: 0rem 0.3rem 0.3rem 0.3rem black;
+  text-align: center;
+  text-shadow: 0.5rem 0.5rem black;
 }
 
 .data {
@@ -74,6 +77,13 @@ section > div {
   margin: 1rem 0 0 0;
 }
 
+.weaponClass,
+.weaponName,
+.weapon {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .weapon > section {
   padding: 1rem 0 0 0;
 }
@@ -81,15 +91,17 @@ section > div {
 .weaponPic {
   background: black;
   display: block;
-  height: 15rem;
-  width: 15rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 0.5rem;
   border: 2px solid #f1ce89;
-  padding: 1rem;
+  padding: 2rem;
   margin: 5rem auto 2rem auto;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem black;
 }
 
 div:hover {
   color: #f1ce89;
+  text-decoration: underline;
   cursor: pointer;
 }
